@@ -1,10 +1,10 @@
 *{
-    outline: auto;
+
 }
 
 body{
     background-color: lightblue;
-    padding: 5px 11%;
+    margin: 0;
 }
 
 .main{
@@ -12,43 +12,74 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 700px;
+    height: 750px;
     
 }
 
 .zero{
-    background-color: lightcoral;
+    background-color: #1F2937;
+    color: lightgray;
     display: flex;
     justify-content: space-between;
     align-content: center;
     
     flex-grow: 0.2;
+    padding: 15px 11%;
     
 }
 
 .one{
-    background-color: orange;
-    flex-grow: 1;
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    outline: auto blueviolet;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 20%;
+    padding-left: 11%;
+    padding-right: 11%;
 
 }
 .one-one{
-display: flex;
-justify-content: flex-start;
-outline: auto;
-flex-grow: 1;
-height: 50%
+    outline: auto;
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    height: 50%;
+    color: white;
+    flex-direction: column;
+}
+
+.one-one-header{
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+.one-one-body{
+    text-align: left;
+    
+    
+}
+
+.one-one-end{
+    flex-grow: 0.5;
 }
 
 .one-two{
- display: flex;
- justify-content: center;
- align-items: center;
- outline: auto;
- flex-grow: 1;
- height: 50%;
+    outline: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.one-two{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 50%;
+ 
 }
 
 .two{
@@ -59,39 +90,110 @@ height: 50%
     justify-content: space-around;
     width: 100%;
     align-items: center;
+    padding-bottom: 15%;
+    background-color: white;
+
+    
 }
 
 .two-one{
-
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-weight: bold;
 }
 
 .two-two{
-display: flex;
+    display: flex;
+    padding: 10px;
+    column-gap: 27px;
+
 }
 
+.box1, .box2, .box3, .box4{
+
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 8px;
+}
+
+.box1 div, .box2 div, .box3 div, .box4 div{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    padding: 25px;
+    outline: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+span {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
 .three{
-    background-color: lightgreen;
+    background-color: rgb(228, 234, 247);
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 40px 20%;
+    font-style: italic;
 }
 
+.three-one{
+    text-align: left;
+}
+
+.three-two{
+    text-align: end;
+    font-weight: bold;
+}
+
+
+
+
 .four{
-    
-    background-color: rgb(80, 80, 253);
+    padding: 30px;
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.four-zero{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    background-color: #3882F6;
 }
 
 .four-one{
     flex-grow: 0.5;
+    justify-content: center;
+    color: white;
+
+}
+
+.four-two{
+    align-self: center;
+    
+    justify-content: center;
+
 }
 .five{
+    color: lightgray;
     background-color: purple;
     flex-grow: 0.1;
     display: flex;
     justify-content: center;
+    background-color: #1F2937;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding: 10px;
 }
